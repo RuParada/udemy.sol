@@ -1,0 +1,122 @@
+{
+  "contractName": "TypeBytes",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TypeBytes.sol\":\"TypeBytes\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TypeBytes.sol\":{\"keccak256\":\"0x6bc0a5ff8e095bcc7dc05b9cba7ec218a9c05ed5ccbdf91d929515acfa7c1d08\",\"urls\":[\"bzz-raw://ff21f9c95729da434129b3ed2aafaf5eae2dc66ff7a60959a6dec310938661d6\",\"dweb:/ipfs/QmfQ1HgRsTwJpyb1yRSkKf3wimzwLZgCqJjkxhpKFTPFjm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158203c1af68c199cba25dfe84f7a539fea9c2017112e458d309012e264cf616f482564736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158203c1af68c199cba25dfe84f7a539fea9c2017112e458d309012e264cf616f482564736f6c63430005100032",
+  "sourceMap": "66:27:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:27:6;;;;;;;",
+  "deployedSourceMap": "66:27:6:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract TypeBytes {\n    \n}",
+  "sourcePath": "/Users/ruslan/token/reactBox/contracts/TypeBytes.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TypeBytes.sol",
+    "exportedSymbols": {
+      "TypeBytes": [
+        138
+      ]
+    },
+    "id": 139,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 137,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 138,
+        "linearizedBaseContracts": [
+          138
+        ],
+        "name": "TypeBytes",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 139,
+        "src": "66:27:6"
+      }
+    ],
+    "src": "32:61:6"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/TypeBytes.sol",
+      "exportedSymbols": {
+        "TypeBytes": [
+          138
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 137,
+        "name": "PragmaDirective",
+        "src": "32:32:6"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            138
+          ],
+          "name": "TypeBytes",
+          "nodes": [
+            null
+          ],
+          "scope": 139
+        },
+        "id": 138,
+        "name": "ContractDefinition",
+        "src": "66:27:6"
+      }
+    ],
+    "id": 139,
+    "name": "SourceUnit",
+    "src": "32:61:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-01T15:03:54.065Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

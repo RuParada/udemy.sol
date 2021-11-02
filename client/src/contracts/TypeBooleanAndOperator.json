@@ -1,0 +1,422 @@
+{
+  "contractName": "TypeBooleanAndOperator",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TypeBooleanAndOperator.sol\":\"TypeBooleanAndOperator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TypeBooleanAndOperator.sol\":{\"keccak256\":\"0x021017fd42255cb0e9f96ea4efebd472d467e5058dba2a5a71af94ce04e7cfe8\",\"urls\":[\"bzz-raw://f5b9a036ba671197940ddf1d8c73cfa1598668206ef2d9c396363d6feac99e5e\",\"dweb:/ipfs/QmW2UidnGNwHvDJSKBHBUWwF3o9zeM9cRsDNyztT8a7BCi\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158209ae62d004e970bb242e9c960bf1739cc94ecfdd659e546535c54255de6d6097764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158209ae62d004e970bb242e9c960bf1739cc94ecfdd659e546535c54255de6d6097764736f6c63430005100032",
+  "sourceMap": "67:309:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;67:309:5;;;;;;;",
+  "deployedSourceMap": "67:309:5:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\n\ncontract TypeBooleanAndOperator {\n    /*\n\n    bool b; // =false\n    !false; // =true\n    !true; // =false\n\n    false && true // =false\n    true && true // =true\n\n    true || false //=true\n\n    false == true // =false\n    true == true // =true\n\n    false != true // =true\n    false != false // false\n\n     */\n}\n\ncontract Integer { // целое число как положительное так и отрицательное\n    int i; // от -128 до 127\n}\n\n\ncontract unsignedInteger { // целое число только положительное\n    uint i; // от 0 до 255\n    uint8 i2;\n    uint256 i3;\n}\n\n",
+  "sourcePath": "/Users/ruslan/token/reactBox/contracts/TypeBooleanAndOperator.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TypeBooleanAndOperator.sol",
+    "exportedSymbols": {
+      "Integer": [
+        128
+      ],
+      "TypeBooleanAndOperator": [
+        125
+      ],
+      "unsignedInteger": [
+        135
+      ]
+    },
+    "id": 136,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 124,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 125,
+        "linearizedBaseContracts": [
+          125
+        ],
+        "name": "TypeBooleanAndOperator",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 136,
+        "src": "67:309:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 128,
+        "linearizedBaseContracts": [
+          128
+        ],
+        "name": "Integer",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 127,
+            "name": "i",
+            "nodeType": "VariableDeclaration",
+            "scope": 128,
+            "src": "497:5:5",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_int256",
+              "typeString": "int256"
+            },
+            "typeName": {
+              "id": 126,
+              "name": "int",
+              "nodeType": "ElementaryTypeName",
+              "src": "497:3:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_int256",
+                "typeString": "int256"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 136,
+        "src": "378:149:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 135,
+        "linearizedBaseContracts": [
+          135
+        ],
+        "name": "unsignedInteger",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 130,
+            "name": "i",
+            "nodeType": "VariableDeclaration",
+            "scope": 135,
+            "src": "626:6:5",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 129,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "626:4:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 132,
+            "name": "i2",
+            "nodeType": "VariableDeclaration",
+            "scope": 135,
+            "src": "657:8:5",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 131,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "657:5:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 134,
+            "name": "i3",
+            "nodeType": "VariableDeclaration",
+            "scope": 135,
+            "src": "671:10:5",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 133,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "671:7:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 136,
+        "src": "530:154:5"
+      }
+    ],
+    "src": "32:654:5"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/TypeBooleanAndOperator.sol",
+      "exportedSymbols": {
+        "Integer": [
+          128
+        ],
+        "TypeBooleanAndOperator": [
+          125
+        ],
+        "unsignedInteger": [
+          135
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 124,
+        "name": "PragmaDirective",
+        "src": "32:32:5"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            125
+          ],
+          "name": "TypeBooleanAndOperator",
+          "nodes": [
+            null
+          ],
+          "scope": 136
+        },
+        "id": 125,
+        "name": "ContractDefinition",
+        "src": "67:309:5"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            128
+          ],
+          "name": "Integer",
+          "scope": 136
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "i",
+              "scope": 128,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "int256",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "int",
+                  "type": "int256"
+                },
+                "id": 126,
+                "name": "ElementaryTypeName",
+                "src": "497:3:5"
+              }
+            ],
+            "id": 127,
+            "name": "VariableDeclaration",
+            "src": "497:5:5"
+          }
+        ],
+        "id": 128,
+        "name": "ContractDefinition",
+        "src": "378:149:5"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            135
+          ],
+          "name": "unsignedInteger",
+          "scope": 136
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "i",
+              "scope": 135,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 129,
+                "name": "ElementaryTypeName",
+                "src": "626:4:5"
+              }
+            ],
+            "id": 130,
+            "name": "VariableDeclaration",
+            "src": "626:6:5"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "i2",
+              "scope": 135,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint8",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint8",
+                  "type": "uint8"
+                },
+                "id": 131,
+                "name": "ElementaryTypeName",
+                "src": "657:5:5"
+              }
+            ],
+            "id": 132,
+            "name": "VariableDeclaration",
+            "src": "657:8:5"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "name": "i3",
+              "scope": 135,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 133,
+                "name": "ElementaryTypeName",
+                "src": "671:7:5"
+              }
+            ],
+            "id": 134,
+            "name": "VariableDeclaration",
+            "src": "671:10:5"
+          }
+        ],
+        "id": 135,
+        "name": "ContractDefinition",
+        "src": "530:154:5"
+      }
+    ],
+    "id": 136,
+    "name": "SourceUnit",
+    "src": "32:654:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-01T15:03:54.064Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

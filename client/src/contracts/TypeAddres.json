@@ -1,0 +1,427 @@
+{
+  "contractName": "TypeAddres",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MY_ADDRESS",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "MY_UINT",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "add",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"MY_ADDRESS\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"MY_UINT\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"add\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TypeAddres.sol\":\"TypeAddres\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TypeAddres.sol\":{\"keccak256\":\"0x6c32f9ef7fe44d13f216e28ae4b2a676d202bf68037fe807ebe99e24fd93029a\",\"urls\":[\"bzz-raw://ca9fa8fc4a3cc9113891400bb604097f4b4c556843970d386fb1436200ce4582\",\"dweb:/ipfs/QmeowyXKALVWXg5Mw4FxsLmWJmyzwMcgMpFHxSQEeemajn\"]}},\"version\":1}",
+  "bytecode": "0x608060405273602b6cd4e94e69d2b6b550cf1f59c64ef75a6b1f6000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555034801561006457600080fd5b5061016f806100746000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c80631f6649e3146100465780633a756cec146100645780634f2be91f146100ae575b600080fd5b61004e6100f8565b6040518082815260200191505060405180910390f35b61006c6100fd565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100b6610115565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b607b81565b73777788889999aaaabbbbccccddddeeeeffffcccc81565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea265627a7a723158205e3465ce21b00c7607944c009534dc49cf336e03157c6cf201c570c655150db364736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c80631f6649e3146100465780633a756cec146100645780634f2be91f146100ae575b600080fd5b61004e6100f8565b6040518082815260200191505060405180910390f35b61006c6100fd565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6100b6610115565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b607b81565b73777788889999aaaabbbbccccddddeeeeffffcccc81565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea265627a7a723158205e3465ce21b00c7607944c009534dc49cf336e03157c6cf201c570c655150db364736f6c63430005100032",
+  "sourceMap": "66:439:3:-;;;113:42;92:63;;;;;;;;;;;;;;;;;;;;66:439;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:439:3;;;;;;;",
+  "deployedSourceMap": "66:439:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:439:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;468:34;;;:::i;:::-;;;;;;;;;;;;;;;;;;;383:79;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;92:63;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;468:34;499:3;468:34;:::o;383:79::-;420:42;383:79;:::o;92:63::-;;;;;;;;;;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract TypeAddres {\n    address public add = 0x602B6CD4E94e69D2b6B550cF1F59c64ef75a6b1F;\n    //address payable public add = 0x602B6CD4E94e69D2b6B550cF1F59c64ef75a6b1F;\n    \n    //addr.balance;\n    //addr.transfer(uint 20);\n    //addr.send(uint 20);\n    \n    // coding convention to uppercase constant variables\n    address public constant MY_ADDRESS = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;\n    uint public constant MY_UINT = 123;\n}",
+  "sourcePath": "/Users/ruslan/token/reactBox/contracts/TypeAddres.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TypeAddres.sol",
+    "exportedSymbols": {
+      "TypeAddres": [
+        95
+      ]
+    },
+    "id": 96,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 85,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 95,
+        "linearizedBaseContracts": [
+          95
+        ],
+        "name": "TypeAddres",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 88,
+            "name": "add",
+            "nodeType": "VariableDeclaration",
+            "scope": 95,
+            "src": "92:63:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 86,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "92:7:3",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "307836303242364344344539346536394432623642353530634631463539633634656637356136623146",
+              "id": 87,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "113:42:3",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_address_payable",
+                "typeString": "address payable"
+              },
+              "value": "0x602B6CD4E94e69D2b6B550cF1F59c64ef75a6b1F"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "id": 91,
+            "name": "MY_ADDRESS",
+            "nodeType": "VariableDeclaration",
+            "scope": 95,
+            "src": "383:79:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 89,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "383:7:3",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "307837373737383838383939393941614141624262624363636364644464656565456646466643634363",
+              "id": 90,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "420:42:3",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_address_payable",
+                "typeString": "address payable"
+              },
+              "value": "0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "id": 94,
+            "name": "MY_UINT",
+            "nodeType": "VariableDeclaration",
+            "scope": 95,
+            "src": "468:34:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 92,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "468:4:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "313233",
+              "id": 93,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "499:3:3",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_123_by_1",
+                "typeString": "int_const 123"
+              },
+              "value": "123"
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 96,
+        "src": "66:439:3"
+      }
+    ],
+    "src": "32:473:3"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/TypeAddres.sol",
+      "exportedSymbols": {
+        "TypeAddres": [
+          95
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 85,
+        "name": "PragmaDirective",
+        "src": "32:32:3"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            95
+          ],
+          "name": "TypeAddres",
+          "scope": 96
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "add",
+              "scope": 95,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "address",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "address",
+                  "stateMutability": "nonpayable",
+                  "type": "address"
+                },
+                "id": 86,
+                "name": "ElementaryTypeName",
+                "src": "92:7:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "307836303242364344344539346536394432623642353530634631463539633634656637356136623146",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "address payable",
+                  "value": "0x602B6CD4E94e69D2b6B550cF1F59c64ef75a6b1F"
+                },
+                "id": 87,
+                "name": "Literal",
+                "src": "113:42:3"
+              }
+            ],
+            "id": 88,
+            "name": "VariableDeclaration",
+            "src": "92:63:3"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "MY_ADDRESS",
+              "scope": 95,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "address",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "address",
+                  "stateMutability": "nonpayable",
+                  "type": "address"
+                },
+                "id": 89,
+                "name": "ElementaryTypeName",
+                "src": "383:7:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "307837373737383838383939393941614141624262624363636364644464656565456646466643634363",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "address payable",
+                  "value": "0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc"
+                },
+                "id": 90,
+                "name": "Literal",
+                "src": "420:42:3"
+              }
+            ],
+            "id": 91,
+            "name": "VariableDeclaration",
+            "src": "383:79:3"
+          },
+          {
+            "attributes": {
+              "constant": true,
+              "name": "MY_UINT",
+              "scope": 95,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 92,
+                "name": "ElementaryTypeName",
+                "src": "468:4:3"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "hexvalue": "313233",
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "subdenomination": null,
+                  "token": "number",
+                  "type": "int_const 123",
+                  "value": "123"
+                },
+                "id": 93,
+                "name": "Literal",
+                "src": "499:3:3"
+              }
+            ],
+            "id": 94,
+            "name": "VariableDeclaration",
+            "src": "468:34:3"
+          }
+        ],
+        "id": 95,
+        "name": "ContractDefinition",
+        "src": "66:439:3"
+      }
+    ],
+    "id": 96,
+    "name": "SourceUnit",
+    "src": "32:473:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-01T15:03:54.062Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
