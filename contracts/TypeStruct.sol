@@ -22,8 +22,9 @@ contract TypeStruct {
         persons.push(Person(_name, _job, _age));
     }
     
-    
 }
+
+
 
 /*
 contract Todos {
