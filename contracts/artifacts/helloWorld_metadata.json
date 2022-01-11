@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -24,6 +29,32 @@
 					}
 				],
 				"name": "addCompany",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ceo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "deleteCompany",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +96,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LastContractMapping.sol": "helloWorld"
+			"contracts/ModifierContract.sol": "helloWorld"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -79,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LastContractMapping.sol": {
-			"keccak256": "0xe1075764b6b28025c6d2e907b4ff1be6ce31491b3f5a6a5ea3746fd65463085b",
+		"contracts/ModifierContract.sol": {
+			"keccak256": "0xf973e96c426a37fec44607a7ab2653fc046ca6752322e3770f05c3f16daf0ded",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1fc433f1483b7939d0ca3d78df0839e15a29fdd518d6275e8af7642d5291a79d",
-				"dweb:/ipfs/QmeX9UmWR6c4Z1PqTMvyNLwoAXTpSianfmVZnHQu77DqFy"
+				"bzz-raw://2202a3286b34ec352917372ad8e852d417f3b1f6df2ea1ad98a57dd518663b24",
+				"dweb:/ipfs/QmayE6ymNr7zC1oNbdNSjm3PNYzUSLGLvv7d4REQBRVSjV"
 			]
 		}
 	},
