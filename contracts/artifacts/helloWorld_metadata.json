@@ -1,16 +1,12 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.5.17+commit.d19bba13"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
+				"constant": false,
 				"inputs": [
 					{
 						"internalType": "string",
@@ -30,36 +26,12 @@
 				],
 				"name": "addCompany",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "ceo",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "sender",
-						"type": "address"
-					}
-				],
-				"name": "deleteCompany",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
+				"constant": true,
 				"inputs": [],
 				"name": "getCompany",
 				"outputs": [
@@ -79,30 +51,24 @@
 						"type": "uint256"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ModifierContract.sol": "helloWorld"
+			"contracts/LastContractMapping.sol": "helloWorld"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -110,12 +76,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ModifierContract.sol": {
-			"keccak256": "0xf973e96c426a37fec44607a7ab2653fc046ca6752322e3770f05c3f16daf0ded",
-			"license": "MIT",
+		"contracts/LastContractMapping.sol": {
+			"keccak256": "0xe1075764b6b28025c6d2e907b4ff1be6ce31491b3f5a6a5ea3746fd65463085b",
 			"urls": [
-				"bzz-raw://2202a3286b34ec352917372ad8e852d417f3b1f6df2ea1ad98a57dd518663b24",
-				"dweb:/ipfs/QmayE6ymNr7zC1oNbdNSjm3PNYzUSLGLvv7d4REQBRVSjV"
+				"bzz-raw://1fc433f1483b7939d0ca3d78df0839e15a29fdd518d6275e8af7642d5291a79d",
+				"dweb:/ipfs/QmeX9UmWR6c4Z1PqTMvyNLwoAXTpSianfmVZnHQu77DqFy"
 			]
 		}
 	},
