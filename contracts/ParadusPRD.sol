@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------------------
-// PRD token main contract (2020)
+// PRD token main contract release in (01.04.2022)
 //
 // Symbol       : PRD
 // Name         : Paradus

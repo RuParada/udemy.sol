@@ -1,12 +1,55 @@
 {
 	"compiler": {
-		"version": "0.5.17+commit.d19bba13"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "companies",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numberOfWorkers",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "companyWallet",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "status",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -20,55 +63,41 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "workers",
+						"name": "numberOfWorkers",
 						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "companyWallet",
+						"type": "address"
 					}
 				],
-				"name": "addCompany",
+				"name": "newCompany",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "getCompany",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "age",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "workers",
-						"type": "uint256"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/LastContractMapping.sol": "helloWorld"
+			"contracts/SecondContract.sol": "helloWorld"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -76,11 +105,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/LastContractMapping.sol": {
-			"keccak256": "0xe1075764b6b28025c6d2e907b4ff1be6ce31491b3f5a6a5ea3746fd65463085b",
+		"contracts/SecondContract.sol": {
+			"keccak256": "0x83c23fa478576acab3892a36a3e220eaea2739fa3ba996f0cf572ac1719c75f8",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://1fc433f1483b7939d0ca3d78df0839e15a29fdd518d6275e8af7642d5291a79d",
-				"dweb:/ipfs/QmeX9UmWR6c4Z1PqTMvyNLwoAXTpSianfmVZnHQu77DqFy"
+				"bzz-raw://da5fa705bd97b75a30e7cb7e6165a18f238c04261fab815100056cb090fcce50",
+				"dweb:/ipfs/QmeaPfXWWCJtZxDch5MihHkSWpiBZnNu1xsNZA7YSBEDWs"
 			]
 		}
 	},
