@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-//import "@openzeppelin/contracts/access/Ownable.sol";
 //import "@openzeppelin/contracts@4.1.0/access/Ownable.sol";
 
 contract ERC20 {
@@ -15,7 +14,7 @@ contract ERC20 {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 
-contract Staking {
+contract StakingHGD {
     
     /* 
     // Example staking: https://solidity-by-example.org/defi/staking-rewards
@@ -51,7 +50,7 @@ contract Staking {
     }
     */
 
-
+    /*
     struct stakingInfo {
         uint amount;
         bool requested;
@@ -116,4 +115,8 @@ contract Staking {
         tokenTotalStaked[_tokenAddr] = tokenTotalStaked[_tokenAddr].add(_amount);
         return true;
     }
+    */
+
+
+    
 }

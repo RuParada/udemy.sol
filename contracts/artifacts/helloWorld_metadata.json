@@ -1,14 +1,14 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.4.26+commit.4563c3fc"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"constant": true,
 				"inputs": [
 					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -16,88 +16,74 @@
 				"name": "companies",
 				"outputs": [
 					{
-						"internalType": "uint256",
 						"name": "id",
 						"type": "uint256"
 					},
 					{
-						"internalType": "string",
 						"name": "name",
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
 						"name": "age",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
 						"name": "numberOfWorkers",
 						"type": "uint256"
 					},
 					{
-						"internalType": "address",
 						"name": "companyWallet",
 						"type": "address"
 					},
 					{
-						"internalType": "string",
 						"name": "status",
 						"type": "string"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"constant": false,
 				"inputs": [
 					{
-						"internalType": "string",
 						"name": "name",
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
 						"name": "age",
 						"type": "uint256"
 					},
 					{
-						"internalType": "uint256",
 						"name": "numberOfWorkers",
 						"type": "uint256"
 					},
 					{
-						"internalType": "address",
 						"name": "companyWallet",
 						"type": "address"
 					}
 				],
 				"name": "newCompany",
 				"outputs": [],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/SecondContract.sol": "helloWorld"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "byzantium",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -107,10 +93,8 @@
 	"sources": {
 		"contracts/SecondContract.sol": {
 			"keccak256": "0x83c23fa478576acab3892a36a3e220eaea2739fa3ba996f0cf572ac1719c75f8",
-			"license": "MIT",
 			"urls": [
-				"bzz-raw://da5fa705bd97b75a30e7cb7e6165a18f238c04261fab815100056cb090fcce50",
-				"dweb:/ipfs/QmeaPfXWWCJtZxDch5MihHkSWpiBZnNu1xsNZA7YSBEDWs"
+				"bzzr://18f47e536a45594f452121453477684e3482d97fe1553f67b88cea9c7390ed74"
 			]
 		}
 	},
