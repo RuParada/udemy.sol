@@ -20,10 +20,36 @@ contract TypeStruct {
     
     function addPerson(string memory _name, string memory _job, uint _age) public {
         persons.push(Person(_name, _job, _age));
-    }
-    
+    } 
 }
 
+contract DemoStruct {
+    struct Payment {
+        uint amount;
+        uint timestamp;
+    }
+
+    Payment[] public payments;
+
+    function sample() public payable {
+        Payment memory payment = Payment(msg.value, block.timestamp);
+        payments.push(payment);
+    }
+
+    function withdraw(address payable _to) public {
+        uint totalPayments;
+        for(uint i = 0; i < payments.length; i++) {
+            totalPayments += payments[i].amount;
+        }
+
+        _to.transfer(totalPayments);
+    }
+
+    struct Balance {
+        uint totalBalance;
+        mapping(uint => Payment) payments;
+    }
+}
 
 
 /*

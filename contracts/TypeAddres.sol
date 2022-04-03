@@ -13,3 +13,14 @@ contract TypeAddres {
     address public constant MY_ADDRESS = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;
     uint public constant MY_UINT = 123;
 }
+
+contract DemoAddress {
+    function sample(address payable _to) public {
+        _to.transfer(1);
+    }
+
+    function samplePrivideniyeTypes(address _to) public {
+        address payable toPay = payable(_to);
+        toPay.transfer(1);
+    }
+}

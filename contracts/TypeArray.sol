@@ -13,6 +13,24 @@ contract TypeArray {
     }
 }
 
+contract DemoArray {
+    uint[] arrItems;
+
+    function arrayTest(uint lastArrAndRemove) public {
+
+        arrItems[0] = 1;
+
+        arrItems.push(9); // added in end array num 1
+        arrItems.length;
+
+        arrItems.pop(); // remove last value with array
+
+        // ?? lastArrAndRemove = arrItems.pop(); // remove last value with array
+
+
+    }
+}
+
 /*
 // Массив может иметь фиксированный размер 
 // во время компиляции или динамический размер.

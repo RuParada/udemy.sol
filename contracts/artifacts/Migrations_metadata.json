@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "last_completed_migration",
 				"outputs": [
 					{
@@ -58,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/OldMigrations.sol": "Migrations"
+			"contracts/Migrations.sol": "Migrations"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/OldMigrations.sol": {
-			"keccak256": "0x224827b879a8fd2352189946eb3fbf3a586a5a27fde5101e4da3fc5fb4b74572",
+		"contracts/Migrations.sol": {
+			"keccak256": "0xf19ad565d9303946de31dc12e28fab25b176a361dee6267f3514b27c1f394076",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://743e89c56106b93bb46aeaff385c0edf6b2613b8bce62def17bde3400988298b",
-				"dweb:/ipfs/QmbP3UJrg8dWAUYGTgRCJ8rawvUDJuuv2WQBERsjhoye7B"
+				"bzz-raw://b8d5e09926732c2ecd899e3db35cc6cf45162f916790bf1913679afc4175edeb",
+				"dweb:/ipfs/QmeyXQwg76y6kKy8u2dFzUrUnLndX7f1Wy2QS8YRgY6Uu2"
 			]
 		}
 	},
