@@ -2,16 +2,16 @@
 pragma solidity >=0.4.22 < 0.9.0;
 
 contract HelloWorld {
-    string name; // var sostoyaniya and saved in blockchain
+    string message; // var sostoyaniya and saved in blockchain
 
-    constructor(string _name) public 
+    constructor(string memory _message)
     {
-        name = _name;
+        message = _message;
     }
 
-    function getName() public view returns (string)
+    function getMessage() public view returns (string memory)
     {
-        return name;
+        return message;
     }
 }
 

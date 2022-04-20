@@ -16,7 +16,8 @@ contract TypeArray {
 contract DemoArray {
     uint[] arrItems;
 
-    function arrayTest(uint lastArrAndRemove) public {
+    //function arrayTest(uint lastArrAndRemove) public {
+    function arrayTest() public {
 
         arrItems[0] = 1;
 
@@ -27,7 +28,34 @@ contract DemoArray {
 
         // ?? lastArrAndRemove = arrItems.pop(); // remove last value with array
 
+    }
+}
 
+contract DemoFixArray {
+    uint[3][2] public bigArr;
+
+    function demoOutput() public {
+        bigArr = [
+            [1,2,3],
+            [4,5,6]
+        ];
+    }
+}
+
+contract DemoDynamicArray {
+    uint[] items;
+    uint len;
+
+    function dynArray() public {
+        items.push(0);
+        items.push(4);
+        len = items.length;
+    }
+
+    function memoryArray() public view returns(uint[] memory) {
+        uint[] memory itArray = new uint[](10);
+        itArray[0] = 1;
+        return itArray;
     }
 }
 

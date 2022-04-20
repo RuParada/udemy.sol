@@ -5,7 +5,7 @@ import 'hardhat/console.sol';
 
 contract Enum {
     enum Statuses {Unpaid, Paid, Shipped}
-    Statuses status;
+    Statuses public status;
 
     function paid() public {
         status = Statuses.Paid;
@@ -17,6 +17,4 @@ contract Enum {
         }
         status = Statuses.Shipped;
     }
-
-
 }

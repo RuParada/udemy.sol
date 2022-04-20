@@ -51,6 +51,10 @@ contract DemoStruct {
     }
 }
 
+contract Payments {
+    
+}
+
 
 /*
 contract Todos {

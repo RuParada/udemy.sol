@@ -1,89 +1,108 @@
 {
 	"compiler": {
-		"version": "0.4.26+commit.4563c3fc"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": true,
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "companies",
-				"outputs": [
-					{
-						"name": "id",
-						"type": "uint256"
-					},
-					{
+						"internalType": "string",
 						"name": "name",
 						"type": "string"
 					},
 					{
+						"internalType": "uint256",
 						"name": "age",
 						"type": "uint256"
 					},
 					{
-						"name": "numberOfWorkers",
+						"internalType": "uint256",
+						"name": "workers",
 						"type": "uint256"
-					},
-					{
-						"name": "companyWallet",
-						"type": "address"
-					},
-					{
-						"name": "status",
-						"type": "string"
 					}
 				],
-				"payable": false,
+				"name": "addCompany",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ceo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "deleteCompany",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCompany",
+				"outputs": [
+					{
+						"internalType": "string",
 						"name": "name",
 						"type": "string"
 					},
 					{
+						"internalType": "uint256",
 						"name": "age",
 						"type": "uint256"
 					},
 					{
-						"name": "numberOfWorkers",
+						"internalType": "uint256",
+						"name": "workers",
 						"type": "uint256"
-					},
-					{
-						"name": "companyWallet",
-						"type": "address"
 					}
 				],
-				"name": "newCompany",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SecondContract.sol": "helloWorld"
+			"contracts/ErrorHandlingContract.sol": "helloWorld"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -91,10 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SecondContract.sol": {
-			"keccak256": "0x83c23fa478576acab3892a36a3e220eaea2739fa3ba996f0cf572ac1719c75f8",
+		"contracts/ErrorHandlingContract.sol": {
+			"keccak256": "0x672581262849fb231661f6cd7c0bb9f092b4edbda23774434ca326f9ee0c4422",
+			"license": "MIT",
 			"urls": [
-				"bzzr://18f47e536a45594f452121453477684e3482d97fe1553f67b88cea9c7390ed74"
+				"bzz-raw://7a16b1379dd8189da197418dbcd57e8e1adf23d78618d6f0f0fe5018c7c81198",
+				"dweb:/ipfs/QmUuX62HQEH1LQLvE9fDE7eDaWiLXN49k3GpLCVMxTFhzq"
 			]
 		}
 	},
