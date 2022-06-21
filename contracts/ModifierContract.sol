@@ -18,7 +18,7 @@ contract helloWorld {
         _; // prodolzhit vipolnenie func 
     }
 
-    constructor() {
+    constructor() public {
         ceo = msg.sender;
 
     }

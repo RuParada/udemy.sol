@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
@@ -96,9 +96,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ErrorHandlingContract.sol": "helloWorld"
+			"token/udemy.sol/contracts/ModifierContract.sol": "helloWorld"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -110,12 +110,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ErrorHandlingContract.sol": {
-			"keccak256": "0x672581262849fb231661f6cd7c0bb9f092b4edbda23774434ca326f9ee0c4422",
+		"token/udemy.sol/contracts/ModifierContract.sol": {
+			"keccak256": "0x243586f771d7f1b39aa3bfa6990f52ec00d0097172b6056fb7055f687f1a4367",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7a16b1379dd8189da197418dbcd57e8e1adf23d78618d6f0f0fe5018c7c81198",
-				"dweb:/ipfs/QmUuX62HQEH1LQLvE9fDE7eDaWiLXN49k3GpLCVMxTFhzq"
+				"bzz-raw://013a3f3aca311bae4ac6a7228b2781c432aa4ff862066565d8d9cd251b4d5ca4",
+				"dweb:/ipfs/QmUfTuqaRahtNERZxbizZbhro4gFNDDVho8f3Bg1ApbW2J"
 			]
 		}
 	},
