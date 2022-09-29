@@ -1,15 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.15+commit.e14f2714"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
 			{
 				"inputs": [
 					{
@@ -29,32 +24,6 @@
 					}
 				],
 				"name": "addCompany",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "ceo",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "sender",
-						"type": "address"
-					}
-				],
-				"name": "deleteCompany",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -96,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"token/udemy.sol/contracts/ModifierContract.sol": "helloWorld"
+			"token/udemy.sol/contracts/LastContractMapping.sol": "helloWorld"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -110,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"token/udemy.sol/contracts/ModifierContract.sol": {
-			"keccak256": "0x243586f771d7f1b39aa3bfa6990f52ec00d0097172b6056fb7055f687f1a4367",
+		"token/udemy.sol/contracts/LastContractMapping.sol": {
+			"keccak256": "0xe1075764b6b28025c6d2e907b4ff1be6ce31491b3f5a6a5ea3746fd65463085b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://013a3f3aca311bae4ac6a7228b2781c432aa4ff862066565d8d9cd251b4d5ca4",
-				"dweb:/ipfs/QmUfTuqaRahtNERZxbizZbhro4gFNDDVho8f3Bg1ApbW2J"
+				"bzz-raw://1fc433f1483b7939d0ca3d78df0839e15a29fdd518d6275e8af7642d5291a79d",
+				"dweb:/ipfs/QmeX9UmWR6c4Z1PqTMvyNLwoAXTpSianfmVZnHQu77DqFy"
 			]
 		}
 	},
