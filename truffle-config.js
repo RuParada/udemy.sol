@@ -7,6 +7,16 @@ module.exports = {
   networks: {
     develop: {
       port: 8545
-    }
+    },
+    
+    mainnet_fork: {
+      host: "127.0.0.1", // Localhost (default: none)
+      port: 8545, // Standard Ethereum port (default: none)
+      network_id: "999", // Any network (default: none)
+    },
+    
+    mocha: {
+    	// timeout: 100000
+  	}
   }
 };
